@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Cores */
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+
+  --accent-purple: #b259ff;
+  --accent-fuschia: #ff59f9;
+  --accent-pink: #ff598b;
+  --accent-orange: #ff8b59;
+  --accent-yellow: #ffcd59;
+  --accent-lime: #e1ff59;
+  --accent-green: #59ff91;
+  --accent-cyan: #59fff9;
+  --accent-navy: #6a59ff;
+
+  --feedback-danger: #ff5959;
+
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+
+  /* Font Families */
+  --font-logo: "Leckerli One", cursive;
+  --font-heading: "Baloo 2", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+
+  /* Font Logomarca  */
+  --text-logo: 400 2.5rem var(--font-logo);
+
+  /* Font Heading */
+  --text-heading-md: 700 1.75rem var(--font-heading);
+  --text-heading-sm: 700 1.125rem var(--font-heading);
+
+  /* Font Body  */
+  --text-body-md1: 400 1rem var(--font-body);
+  --text-body-md2: 600 1rem var(--font-body);
+  --text-body-sm1: 400 0.875rem var(--font-body);
+  --text-body-sm2: 400 0.875rem var(--font-body);
+  --text-body-xs1: 400 0.75rem var(--font-body);
+  --text-body-xs2: 500 0.75rem var(--font-body);
+}
+
+body {
+  overflow: hidden;
+  background-color: var(--shape-background);
+}
