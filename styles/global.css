@@ -50,12 +50,33 @@
   --text-body-md1: 400 1rem var(--font-body);
   --text-body-md2: 600 1rem var(--font-body);
   --text-body-sm1: 400 0.875rem var(--font-body);
-  --text-body-sm2: 400 0.875rem var(--font-body);
+  --text-body-sm2: 600 0.875rem var(--font-body);
   --text-body-xs1: 400 0.75rem var(--font-body);
-  --text-body-xs2: 500 0.75rem var(--font-body);
+  --text-body-xs2: 600 0.75rem var(--font-body);
 }
 
 body {
   overflow: hidden;
   background-color: var(--shape-background);
+  font: var(--text-body-sm1);
+  color: var(--text-body);
+}
+
+h2 {
+  font: var(--text-heading-md);
+  color: var(--text-heading);
+  padding-bottom: 2.5rem;
+}
+
+fieldset + fieldset {
+  margin-top: 3rem;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-1 {
+  flex: 1;
 }
