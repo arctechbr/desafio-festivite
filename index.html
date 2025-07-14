@@ -26,8 +26,8 @@
       </aside>
       <main>
         <div class="main-container">
-          <h2>Crie seu convite</h2>
           <form>
+            <h2>Crie seu convite</h2>
             <fieldset class="event">
               <legend>
                 <div class="headers">
@@ -105,17 +105,200 @@
               <div class="input-wrapper">
                 <label for="principal-color">Cor principal</label>
                 <div class="color-select">
-                  <input type="checkbox" name="blue" id="blue" />
-                  <input type="checkbox" name="navy" id="navy" />
-                  <input type="checkbox" name="purple" id="purple" />
-                  <input type="checkbox" name="fuschia" id="fuschia" />
-                  <input type="checkbox" name="pink" id="pink" />
-                  <input type="checkbox" name="red" id="red" />
-                  <input type="checkbox" name="orange" id="orange" />
-                  <input type="checkbox" name="yellow" id="yellow" />
-                  <input type="checkbox" name="lime" id="lime" />
-                  <input type="checkbox" name="green" id="green" />
-                  <input type="checkbox" name="cyan" id="cyan" />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="blue"
+                    value="blue"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="navy"
+                    value="navy"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="purple"
+                    value="purple"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="fuschia"
+                    value="fuschia"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="pink"
+                    value="pink"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="red"
+                    value="red"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="orange"
+                    value="orange"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="yellow"
+                    value="yellow"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="lime"
+                    value="lime"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="green"
+                    value="green"
+                  />
+                  <input
+                    type="radio"
+                    name="principal-color"
+                    class="cyan"
+                    value="cyan"
+                  />
+                </div>
+              </div>
+              <div class="event-theme">
+                <label for="">Tema do evento</label>
+                <div class="themes-images">
+                  <label>
+                    <input type="radio" name="theme" value="aniversario" />
+                    <div class="container-images">
+                      <img src="assets/images/birthday.png" alt="" />
+                      <p>Aniversário</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="infantil" />
+                    <div class="container-images">
+                      <img src="assets/images/infantil.png" alt="" />
+                      <p>Infantil</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="formatura" />
+                    <div class="container-images">
+                      <img src="assets/images/formatura.png" alt="" />
+                      <p>Formatura</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="casamento" />
+                    <div class="container-images">
+                      <img src="assets/images/casamento.png" alt="" />
+                      <p>Casamento</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="cha-bebe" />
+                    <div class="container-images">
+                      <img src="assets/images/cha-bebe.png" alt="" />
+                      <p>Chá de bebê</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="cha-panela" />
+                    <div class="container-images">
+                      <img src="assets/images/cha-panela.png" alt="" />
+                      <p>Chá de panela</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="carnaval" />
+                    <div class="container-images">
+                      <img src="assets/images/carnaval.png" alt="" />
+                      <p>Carnaval</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="pascoa" />
+                    <div class="container-images">
+                      <img src="assets/images/pascoa.png" alt="" />
+                      <p>Páscoa</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="sao-joao" />
+                    <div class="container-images">
+                      <img src="assets/images/sao-joao.png" alt="" />
+                      <p>São Joāo</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="halloween" />
+                    <div class="container-images">
+                      <img src="assets/images/halloween.png" alt="" />
+                      <p>Halloween</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="natal" />
+                    <div class="container-images">
+                      <img src="assets/images/natal.png" alt="" />
+                      <p>Natal</p>
+                    </div>
+                  </label>
+                  <label>
+                    <input type="radio" name="theme" value="ano-novo" />
+                    <div class="container-images">
+                      <img src="assets/images/ano-novo.png" alt="" />
+                      <p>Ano novo</p>
+                    </div>
+                  </label>
+                </div>
+              </div>
+              <div class="container-buttons flex">
+                <div class="switch-wrapper flex-1">
+                  <label for="styles">Estilo</label>
+                  <div class="switch-group">
+                    <label class="switch">
+                      <input type="checkbox" id="styles" />
+                      <span class="slider"></span>
+                    </label>
+                    <span class="switch-label">Escuro</span>
+                  </div>
+                </div>
+
+                <div class="flex-2">
+                  <label for="up-file">Foto da capa</label>
+                  <div class="file-upload-form">
+                    <label class="file-upload-label" for="file">
+                      <div class="file-upload-design">
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M7.64645 1.64645C7.84171 1.45118 8.15829 1.45118 8.35355 1.64645L11.6869 4.97978C11.8821 5.17504 11.8821 5.49162 11.6869 5.68689C11.4916 5.88215 11.175 5.88215 10.9798 5.68689L8.5 3.20711V10C8.5 10.2761 8.27614 10.5 8 10.5C7.72386 10.5 7.5 10.2761 7.5 10V3.20711L5.02022 5.68689C4.82496 5.88215 4.50838 5.88215 4.31311 5.68689C4.11785 5.49162 4.11785 5.17504 4.31311 4.97978L7.64645 1.64645ZM2 9.5C2.27614 9.5 2.5 9.72386 2.5 10V12.6667C2.5 12.8877 2.5878 13.0996 2.74408 13.2559C2.90036 13.4122 3.11232 13.5 3.33333 13.5H12.6667C12.8877 13.5 13.0996 13.4122 13.2559 13.2559C13.4122 13.0996 13.5 12.8877 13.5 12.6667V10C13.5 9.72386 13.7239 9.5 14 9.5C14.2761 9.5 14.5 9.72386 14.5 10V12.6667C14.5 13.1529 14.3068 13.6192 13.963 13.963C13.6192 14.3068 13.1529 14.5 12.6667 14.5H3.33333C2.8471 14.5 2.38079 14.3068 2.03697 13.963C1.69315 13.6192 1.5 13.1529 1.5 12.6667V10C1.5 9.72386 1.72386 9.5 2 9.5Z"
+                            fill="#59B2FF"
+                          />
+                        </svg>
+                        <span>Selecione</span>
+                      </div>
+                      <input type="file" id="file" />
+                    </label>
+                    <span id="">Nenhum arquivo selecionado</span>
+                  </div>
                 </div>
               </div>
             </fieldset>
