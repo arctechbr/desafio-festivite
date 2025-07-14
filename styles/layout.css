@@ -8,7 +8,7 @@
 aside {
   padding: 1.25rem 0 1.25rem 1.25rem;
   height: 100vh;
-  max-width: 26.25rem;
+  /* max-width: 26.25rem; */
   margin-left: auto;
 
   & .aside-container {
@@ -44,14 +44,12 @@ aside {
 main {
   overflow: auto;
   padding: 1.25rem;
-  max-width: 53.75rem;
 
   & .main-container {
     background-color: var(--shape-body);
+    width: 53.75rem;
     padding: 5rem 8.125rem;
     border-radius: 0.75rem;
-
-    /* margin-left: 0; */
   }
 
   & form {
