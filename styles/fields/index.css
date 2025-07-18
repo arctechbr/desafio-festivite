@@ -1,6 +1,7 @@
 @import url(buttons.css);
+@import url(checkbox.css);
 
-input,
+input:not([type="checkbox"]):not([type="radio"]),
 textarea {
   appearance: none;
   width: 100%;
