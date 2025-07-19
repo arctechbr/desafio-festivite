@@ -1,7 +1,5 @@
 # 🚀 Desafio Festivite - Rocketseat
 
-![Preview do Projeto](./screenshot.png) <!-- Substitua pelo caminho real do seu print -->
-
 ## 📌 Sobre
 
 Este projeto foi desenvolvido como parte de um **desafio prático da Rocketseat**, com o objetivo de reforçar conhecimentos em HTML e CSS através da construção de uma interface temática para eventos.
