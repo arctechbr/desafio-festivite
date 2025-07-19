@@ -51,4 +51,4 @@ Mesmo com dificuldades, o desafio me levou a um **novo patamar de aprendizado**,
 
 ---
 
-### 🚀 Desenvolvido com 💜 por [Seu Nome Aqui]
+### 🚀 Desenvolvido com 💜 por Archtech - Projeto de direitos autorais pela Rocketseat, uso totalmente para aprendizagem.
