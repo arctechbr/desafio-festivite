@@ -1,3 +1,4 @@
+@import url(radio.css);
 @import url(buttons.css);
 @import url(checkbox.css);
 
@@ -13,6 +14,25 @@ textarea {
   &::placeholder {
     color: var(--input-placeholder);
     font: var(--text-body-md1);
+  }
+
+  &:invalid {
+    border: 1px solid var(--feedback-danger);
+  }
+
+  &:not(:focus):valid + .error {
+    display: none;
+  }
+}
+
+.error {
+  display: flex;
+  padding-top: 0.5rem;
+
+  & small {
+    font: var(--text-body-xs1);
+    color: var(--feedback-danger);
+    padding-left: 0.5rem;
   }
 }
 

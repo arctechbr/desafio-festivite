@@ -21,3 +21,9 @@ fieldset {
     color: #869198;
   }
 }
+
+input,
+textarea {
+  color: var(--text-body);
+  font: var(--text-body-md1);
+}
